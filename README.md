@@ -22,7 +22,11 @@ The model was trained and evaluated using a structured pipeline:
 
 ## Dataset
 
-The project uses the Date Fruit Dataset.
+This project uses the **Date Fruit Dataset**, which contains morphological and color-based features extracted from date fruit images.
+
+Dataset source: [Date Fruit Dataset on CiteData](https://citedata.com/DataDetail/Index/4)
+
+The dataset was introduced by Koklu et al. for date fruit classification studies. In this repository, the dataset is used only for supervised machine learning experimentation and model evaluation.
 
 Dataset characteristics:
 
@@ -34,7 +38,7 @@ Dataset characteristics:
 | Number of classes | 7 |
 | Feature types | Morphological and color-based measurements |
 
-Classes in the dataset:
+Classes in the downloaded dataset:
 
 - BERHI
 - DEGLET
@@ -43,6 +47,8 @@ Classes in the dataset:
 - ROTANA
 - SAFAVI
 - SOGAY
+
+> Note: Some public descriptions of the dataset refer to the date fruit varieties using longer variety names. The downloaded dataset used in this project contains the class labels listed above, so the original labels in the dataset were preserved during modeling.
 
 ## Repository Structure
 
